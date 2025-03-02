@@ -1,28 +1,34 @@
+/* Gradient Background - Top half orange, bottom half cream */
 body {
-    background-color: #FEC89A;
-    font-family: Arial, sans-serif;
+    height: 100vh; /* Full height of the viewport */
     margin: 0;
     padding: 20px;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(to bottom, #FEC89A 50%, #e7e4d2 50%);
+    /* FEC89A = pastel orange, e7e4d2 = light cream */
 }
 
+/* Headings */
 h1, h2 {
     text-align: center;
     color: #D62828;
 }
 
+/* Images */
 img {
     margin: 10px;
     border: 2px solid #FF6B6B;
 }
 
+/* Lists */
 ul {
     list-style-type: square;
+}
 
-    body {
-        height: 100vh; /* Make sure it covers the whole page height */
-        margin: 0;
-        background: linear-gradient(to bottom, #FEC89A 50%, #e7e4d2 50%);
-    }
-    
-    
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }

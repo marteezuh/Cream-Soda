@@ -1,12 +1,11 @@
-/* Gradient Background - Top half orange, bottom half cream */
+/* Full page split gradient background */
 body {
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh;
     margin: 0;
     padding: 20px;
     font-family: Arial, sans-serif;
-
-    background: linear-gradient(to bottom, #FEC89A 50%, #e7e4d2 50%);
-    /* FEC89A = pastel orange, e7e4d2 = light cream */
+    background: linear-gradient(to bottom, #e4e2d0 50%, #e3ae44 50%);
+    /* Pastel orange on top, cream on bottom */
 }
 
 /* Headings */
@@ -26,9 +25,7 @@ ul {
     list-style-type: square;
 }
 
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+/* Centered content helper (optional if you want everything centered) */
+.center {
+    text-align: center;
 }

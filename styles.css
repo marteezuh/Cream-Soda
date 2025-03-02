@@ -10,13 +10,13 @@ body {
 /* Headings */
 h1, h2 {
     text-align: center;
-    color: #D62828;
+    color: #d3940c;
 }
 
 /* Images */
 img {
     margin: 10px;
-    border: 2px solid #FF6B6B;
+    border: 2px solid #c38407;
 }
 
 /* Lists */
